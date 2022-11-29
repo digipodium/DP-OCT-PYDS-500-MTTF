@@ -1,8 +1,8 @@
 import pgzrun
 from random import randint
 
-HEIGHT = 600
-WIDTH = 1200
+HEIGHT = 800
+WIDTH = 1800
 
 p = Actor('ironman',center=(WIDTH//2, HEIGHT//2))
 c = Actor('cookie', (randint(0, WIDTH), randint(0, HEIGHT)))
